@@ -1,10 +1,10 @@
-# [GeeksforGeeks] Count increasing Subarrays
+# [GeeksforGeeks] Missing in Array
 
 **Difficulty:** Medium  
 **Language:**   
 **Runtime:** Accepted  
 **Memory:** N/A  
-**Link:** [Problem Link](https://www.geeksforgeeks.org/problems/count-increasing-subarrays5301/1)
+**Link:** [Problem Link](https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&sortBy=submissions)
 
 ## Problem Description
 

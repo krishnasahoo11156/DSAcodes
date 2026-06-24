@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 2 ms  
-**Memory:** 48.8 MB  
+**Memory:** 49.2 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/sort-array-by-parity-ii/)
 
 ## Problem Description

@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 11 ms  
-**Memory:** 47.7 MB  
+**Memory:** 47.4 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/largest-perimeter-triangle/)
 
 ## Problem Description

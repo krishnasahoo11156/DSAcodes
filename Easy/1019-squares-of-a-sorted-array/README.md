@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 10 ms  
-**Memory:** 48.5 MB  
+**Runtime:** 1 ms  
+**Memory:** 47.4 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 ## Problem Description

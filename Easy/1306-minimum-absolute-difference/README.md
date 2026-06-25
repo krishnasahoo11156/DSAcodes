@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 210 ms  
-**Memory:** 63.8 MB  
+**Runtime:** 21 ms  
+**Memory:** 63.9 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/minimum-absolute-difference/)
 
 ## Problem Description

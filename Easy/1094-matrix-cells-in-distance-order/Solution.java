@@ -2,21 +2,36 @@ class Solution {
     public int[][] allCellsDistOrder(int rows, int cols, int rCenter, int cCenter) {
 
         int[][] ans = new int[rows * cols][2];
+        boolean[][] visited = new boolean[rows][cols];
+
+        Queue<int[]> queue = new LinkedList<>();
+
+        queue.offer(new int[]{rCenter, cCenter});
+        visited[rCenter][cCenter] = true;
+
+        int[][] dir = {{1,0},{-1,0},{0,1},{0,-1}};
         int index = 0;
 
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                ans[index][0] = i;
-                ans[index][1] = j;
-                index++;
+        while (!queue.isEmpty()) {
+
+            int[] cell = queue.poll();
+
+            ans[index++] = cell;
+
+            for (int[] d : dir) {
+
+                int nr = cell[0] + d[0];
+                int nc = cell[1] + d[1];
+
+                if (nr >= 0 && nr < rows &&
+                    nc >= 0 && nc < cols &&
+                    !visited[nr][nc]) {
+
+                    visited[nr][nc] = true;
+                    queue.offer(new int[]{nr, nc});
+                }
             }
         }
-
-        Arrays.sort(ans, (a, b) ->
-            (Math.abs(a[0] - rCenter) + Math.abs(a[1] - cCenter))
-            -
-            (Math.abs(b[0] - rCenter) + Math.abs(b[1] - cCenter))
-        );
 
         return ans;
     }

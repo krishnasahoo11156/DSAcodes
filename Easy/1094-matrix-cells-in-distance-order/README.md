@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 14 ms  
-**Memory:** 47.9 MB  
+**Runtime:** 9 ms  
+**Memory:** 48.4 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/matrix-cells-in-distance-order/)
 
 ## Problem Description

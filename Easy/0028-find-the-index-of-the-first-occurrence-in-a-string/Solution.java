@@ -9,7 +9,6 @@ class Solution {
             if (haystack.charAt(i) == needle.charAt(j)) {
                 i++;
                 j++;
-
                 if (j == needle.length()) {
                     return i - j;
                 }
@@ -21,7 +20,6 @@ class Solution {
                 }
             }
         }
-
         return -1;
     }
 
@@ -29,7 +27,6 @@ class Solution {
         int[] lps = new int[pattern.length()];
         int len = 0;
         int i = 1;
-
         while (i < pattern.length()) {
             if (pattern.charAt(i) == pattern.charAt(len)) {
                 len++;
@@ -44,7 +41,6 @@ class Solution {
                 }
             }
         }
-
         return lps;
     }
 }

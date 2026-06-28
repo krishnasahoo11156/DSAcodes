@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 3 ms  
-**Memory:** 43.1 MB  
+**Memory:** 42.8 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 ## Problem Description

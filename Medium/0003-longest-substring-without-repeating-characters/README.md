@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 2 ms  
-**Memory:** 44.7 MB  
+**Runtime:** 5 ms  
+**Memory:** 45.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ## Problem Description

@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 43.7 MB  
+**Runtime:** 5 ms  
+**Memory:** 43.8 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/relative-sort-array/)
 
 ## Problem Description

@@ -2,7 +2,7 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 3 ms  
+**Runtime:** 4 ms  
 **Memory:** 62.3 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 

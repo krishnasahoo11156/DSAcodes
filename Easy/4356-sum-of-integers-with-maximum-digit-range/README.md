@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 2 ms  
-**Memory:** 46.4 MB  
+**Memory:** 46.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/)
 
 ## Problem Description

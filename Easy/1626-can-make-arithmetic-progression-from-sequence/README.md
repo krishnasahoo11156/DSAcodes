@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 5 ms  
-**Memory:** 43.5 MB  
+**Runtime:** 2 ms  
+**Memory:** 44.1 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)
 
 ## Problem Description

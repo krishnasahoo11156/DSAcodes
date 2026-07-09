@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 5 ms  
-**Memory:** 44.7 MB  
+**Runtime:** 0 ms  
+**Memory:** 44.4 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
 
 ## Problem Description

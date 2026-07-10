@@ -1,27 +1,11 @@
 class Solution {
-    public int countBits(int n) {
-        int count = 0;
-        while (n != 0) {
-            n = n & (n - 1);
-            count++;
-        }
-        return count;
-    }
     public int[] sortByBits(int[] arr) {
-        Integer[] nums = new Integer[arr.length];
         for (int i = 0; i < arr.length; i++) {
-            nums[i] = arr[i];
+            arr[i] += Integer.bitCount(arr[i]) * 100000;
         }
-        Arrays.sort(nums, (a, b) -> {
-            int bitA = countBits(a);
-            int bitB = countBits(b);
-            if (bitA == bitB) {
-                return a - b;
-            }
-            return bitA - bitB;
-        });
+        Arrays.sort(arr);
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = nums[i];
+            arr[i] %= 100000;
         }
         return arr;
     }

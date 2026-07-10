@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 107 ms  
-**Memory:** 46.5 MB  
+**Runtime:** 10 ms  
+**Memory:** 46.9 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)
 
 ## Problem Description

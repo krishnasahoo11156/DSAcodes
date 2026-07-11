@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 3 ms  
-**Memory:** 46 MB  
+**Runtime:** 5 ms  
+**Memory:** 46.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/integer-to-roman/)
 
 ## Problem Description

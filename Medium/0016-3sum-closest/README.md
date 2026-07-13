@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 100 ms  
-**Memory:** 45.7 MB  
+**Runtime:** 16 ms  
+**Memory:** 45.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/3sum-closest/)
 
 ## Problem Description

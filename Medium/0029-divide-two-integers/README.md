@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Language:** Java  
 **Runtime:** 1 ms  
-**Memory:** 42.5 MB  
+**Memory:** 42.6 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/divide-two-integers/)
 
 ## Problem Description

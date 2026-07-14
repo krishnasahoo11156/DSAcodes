@@ -5,13 +5,11 @@ class Solution {
         long dvd = Math.abs((long) dividend);
         long dvs = Math.abs((long) divisor);
         int ans = 0;
-        while (dvd >= dvs) {
-            int shift = 0;
-            while (dvd >= (dvs << (shift + 1))) {
-                shift++;
+        for (int i = 31; i >= 0; i--) {
+            if ((dvs << i) <= dvd) {
+                dvd -= (dvs << i);
+                ans += (1 << i);
             }
-            dvd -= (dvs << shift);
-            ans += (1 << shift);
         }
         if ((dividend > 0) ^ (divisor > 0))
             return -ans;

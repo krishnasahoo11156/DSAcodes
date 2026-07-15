@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 120 ms  
-**Memory:** 48.2 MB  
+**Runtime:** 14 ms  
+**Memory:** 43.8 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ## Problem Description

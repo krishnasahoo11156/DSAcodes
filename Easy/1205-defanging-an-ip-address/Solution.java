@@ -5,7 +5,7 @@ class Solution {
             if(address.charAt(i) == '.'){
                 ans += "[.]";
             }else{
-                ans += address.charAt(i);
+                ans += address.substring(i,i+1);
             }
         }
         return ans;

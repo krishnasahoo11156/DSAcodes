@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 1 ms  
-**Memory:** 42.7 MB  
+**Memory:** 43 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/defanging-an-ip-address/)
 
 ## Problem Description

@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 7 ms  
-**Memory:** 46.3 MB  
+**Runtime:** 1 ms  
+**Memory:** 45.8 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/shuffle-string/)
 
 ## Problem Description

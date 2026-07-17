@@ -6,6 +6,11 @@ class Solution {
             int index = word.charAt(word.length() - 1) - '1';
             ans[index] = word.substring(0, word.length() - 1);
         }
-        return String.join(" ", ans);
+        StringBuilder res = new StringBuilder();
+        for (String word : ans) {
+            res.append(word).append(" ");
+        }
+        res.deleteCharAt(res.length() - 1);
+        return res.toString();
     }
 }

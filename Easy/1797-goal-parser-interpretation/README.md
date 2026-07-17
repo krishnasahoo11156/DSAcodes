@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 1 ms  
+**Runtime:** 0 ms  
 **Memory:** 43 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/goal-parser-interpretation/)
 

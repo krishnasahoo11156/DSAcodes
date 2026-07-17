@@ -1,16 +1,19 @@
 class Solution {
     public String interpret(String command) {
         StringBuilder ans = new StringBuilder();
-        for(int i = 0; i<command.length(); i++){
-            if(command.charAt(i) == 'G'){
+        int i = 0;
+        while (i < command.length()) {
+            if (command.charAt(i) == 'G') {
                 ans.append('G');
-            }else if(command.charAt(i) == '(' && command.charAt(i+1) == ')'){
-                ans.append('o');
                 i++;
-            }else if(command.charAt(i) == '(' && command.charAt(i+1) == 'a'){
-                ans.append('a');
-                ans.append('l');
-                i+=3;
+            }
+            else if (command.charAt(i + 1) == ')') {
+                ans.append('o');
+                i += 2;
+            }
+            else {
+                ans.append("al");
+                i += 4;
             }
         }
         return ans.toString();

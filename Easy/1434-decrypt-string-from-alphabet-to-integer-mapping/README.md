@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 1 ms  
-**Memory:** 43.1 MB  
+**Memory:** 42.9 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
 
 ## Problem Description

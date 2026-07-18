@@ -1,20 +1,18 @@
-class Solution {
-    public String freqAlphabets(String s) {
-        StringBuilder sb = new StringBuilder();
-        for(int i = s.length() -1; i>= 0; i--){
-            if(s.charAt(i) == '#'){
-                String temp = s.substring(i-2, i);
-                int num = Integer.parseInt(temp);
-                num+=96;
-                sb.append((char)(num));
-                i-=2;
+class Solution{
+    public String freqAlphabets(String s){
+        StringBuilder ans = new StringBuilder();
+        int i = 0;
+        while(i < s.length()){
+            if(i + 2 < s.length() && s.charAt(i + 2) == '#'){
+                int num = Integer.parseInt(s.substring(i, i + 2));
+                ans.append((char)(num + 'a' - 1));
+                i += 3;
             }else{
-                int num = Character.getNumericValue(s.charAt(i));
-                num += 96;
-                sb.append((char)(num));
+                int num = s.charAt(i) - '0';
+                ans.append((char)(num + 'a' - 1));
+                i++;
             }
         }
-        sb.reverse();
-        return sb.toString();
+        return ans.toString();
     }
 }

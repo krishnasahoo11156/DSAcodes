@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 11 ms  
-**Memory:** 44 MB  
+**Runtime:** 5 ms  
+**Memory:** 43.2 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/determine-if-string-halves-are-alike/)
 
 ## Problem Description

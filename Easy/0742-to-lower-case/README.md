@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 42.6 MB  
+**Memory:** 42.8 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/to-lower-case/)
 
 ## Problem Description

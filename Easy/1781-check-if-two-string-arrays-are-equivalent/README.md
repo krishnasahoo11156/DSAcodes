@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 43 MB  
+**Runtime:** 6 ms  
+**Memory:** 43.7 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 
 ## Problem Description

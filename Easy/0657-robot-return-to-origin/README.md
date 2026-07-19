@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 8 ms  
-**Memory:** 45.7 MB  
+**Runtime:** 6 ms  
+**Memory:** 45.3 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/robot-return-to-origin/)
 
 ## Problem Description

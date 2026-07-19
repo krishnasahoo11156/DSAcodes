@@ -1,9 +1,17 @@
 class Solution {
     public int numOfStrings(String[] patterns, String word) {
         int count = 0;
-        for(int i = 0; i < patterns.length; i++){
-            if(word.indexOf(patterns[i]) != -1){
-                count++;
+        for (String pattern : patterns) {
+            for (int i = 0; i <= word.length() - pattern.length(); i++) {
+                int j = 0;
+                while (j < pattern.length()
+                        && word.charAt(i + j) == pattern.charAt(j)) {
+                    j++;
+                }
+                if (j == pattern.length()) {
+                    count++;
+                    break;
+                }
             }
         }
         return count;

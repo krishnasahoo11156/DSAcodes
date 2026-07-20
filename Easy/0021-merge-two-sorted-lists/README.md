@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 44.3 MB  
+**Memory:** 44.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 ## Problem Description

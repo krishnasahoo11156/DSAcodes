@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 42.8 MB  
+**Memory:** 43.2 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 ## Problem Description

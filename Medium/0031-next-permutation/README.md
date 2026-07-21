@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 44.7 MB  
+**Runtime:** 2 ms  
+**Memory:** 45 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/next-permutation/)
 
 ## Problem Description

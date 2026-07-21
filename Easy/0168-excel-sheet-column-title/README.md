@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.3 MB  
+**Runtime:** 3 ms  
+**Memory:** 42.6 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/excel-sheet-column-title/)
 
 ## Problem Description

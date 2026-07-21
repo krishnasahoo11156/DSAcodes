@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public void nextPermutation(int[] nums) {
         int n = nums.length;
@@ -8,26 +10,19 @@ class Solution {
                 break;
             }
         }
-        if (pivot != -1) {
-            for (int i = n - 1; i > pivot; i--) {
-                if (nums[i] > nums[pivot]) {
-                    swap(nums, i, pivot);
-                    break;
-                }
+        if (pivot == -1) {
+            Arrays.sort(nums);
+            return;
+        }
+        for (int i = n - 1; i > pivot; i--) {
+            if (nums[i] > nums[pivot]) {
+
+                int temp = nums[i];
+                nums[i] = nums[pivot];
+                nums[pivot] = temp;
+                break;
             }
         }
-        reverse(nums, pivot + 1, n - 1);
-    }
-    private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
-    private void reverse(int[] nums, int left, int right) {
-        while (left < right) {
-            swap(nums, left, right);
-            left++;
-            right--;
-        }
+        Arrays.sort(nums, pivot + 1, n);
     }
 }

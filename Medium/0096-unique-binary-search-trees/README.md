@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 2131 ms  
-**Memory:** 42.2 MB  
+**Runtime:** 0 ms  
+**Memory:** 42.1 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/unique-binary-search-trees/)
 
 ## Problem Description

@@ -1,6 +1,11 @@
 class Solution {
 
+    Integer[] dp;
+
     public int numTrees(int n) {
+
+        dp=new Integer[n+1];
+
         return solve(n);
     }
 
@@ -8,6 +13,9 @@ class Solution {
 
         if(n<=1)
             return 1;
+
+        if(dp[n]!=null)
+            return dp[n];
 
         int ans=0;
 
@@ -17,6 +25,6 @@ class Solution {
 
         }
 
-        return ans;
+        return dp[n]=ans;
     }
 }

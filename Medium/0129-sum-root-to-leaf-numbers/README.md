@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 1 ms  
-**Memory:** 42.8 MB  
+**Runtime:** 0 ms  
+**Memory:** 43.2 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
 ## Problem Description

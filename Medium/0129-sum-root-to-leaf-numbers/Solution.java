@@ -1,20 +1,37 @@
 class Solution {
 
     public int sumNumbers(TreeNode root) {
-        return dfs(root, 0);
-    }
 
-    private int dfs(TreeNode node, int current) {
-
-        if (node == null)
+        if (root == null)
             return 0;
 
-        current = current * 10 + node.val;
+        Stack<TreeNode> stack = new Stack<>();
+        Stack<Integer> values = new Stack<>();
 
-        if (node.left == null && node.right == null)
-            return current;
+        stack.push(root);
+        values.push(root.val);
 
-        return dfs(node.left, current)
-             + dfs(node.right, current);
+        int sum = 0;
+
+        while (!stack.isEmpty()) {
+
+            TreeNode node = stack.pop();
+            int current = values.pop();
+
+            if (node.left == null && node.right == null)
+                sum += current;
+
+            if (node.right != null) {
+                stack.push(node.right);
+                values.push(current * 10 + node.right.val);
+            }
+
+            if (node.left != null) {
+                stack.push(node.left);
+                values.push(current * 10 + node.left.val);
+            }
+        }
+
+        return sum;
     }
 }

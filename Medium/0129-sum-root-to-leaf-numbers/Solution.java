@@ -5,30 +5,30 @@ class Solution {
         if (root == null)
             return 0;
 
-        Stack<TreeNode> stack = new Stack<>();
-        Stack<Integer> values = new Stack<>();
+        Queue<TreeNode> nodes = new LinkedList<>();
+        Queue<Integer> nums = new LinkedList<>();
 
-        stack.push(root);
-        values.push(root.val);
+        nodes.offer(root);
+        nums.offer(root.val);
 
         int sum = 0;
 
-        while (!stack.isEmpty()) {
+        while (!nodes.isEmpty()) {
 
-            TreeNode node = stack.pop();
-            int current = values.pop();
+            TreeNode node = nodes.poll();
+            int current = nums.poll();
 
             if (node.left == null && node.right == null)
                 sum += current;
 
-            if (node.right != null) {
-                stack.push(node.right);
-                values.push(current * 10 + node.right.val);
+            if (node.left != null) {
+                nodes.offer(node.left);
+                nums.offer(current * 10 + node.left.val);
             }
 
-            if (node.left != null) {
-                stack.push(node.left);
-                values.push(current * 10 + node.left.val);
+            if (node.right != null) {
+                nodes.offer(node.right);
+                nums.offer(current * 10 + node.right.val);
             }
         }
 

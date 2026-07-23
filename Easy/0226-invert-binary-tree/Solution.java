@@ -2,17 +2,17 @@ class Solution {
     public TreeNode invertTree(TreeNode root) {
         if (root == null)
             return null;
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
             TreeNode temp = node.left;
             node.left = node.right;
             node.right = temp;
             if (node.left != null)
-                stack.push(node.left);
+                queue.offer(node.left);
             if (node.right != null)
-                stack.push(node.right);
+                queue.offer(node.right);
         }
         return root;
     }

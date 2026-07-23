@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 43.2 MB  
+**Memory:** 43.3 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/invert-binary-tree/)
 
 ## Problem Description

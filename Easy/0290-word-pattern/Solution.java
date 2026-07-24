@@ -6,27 +6,13 @@ class Solution {
         if (pattern.length() != words.length)
             return false;
 
-        HashMap<Character, String> map1 = new HashMap<>();
-        HashMap<String, Character> map2 = new HashMap<>();
+        HashMap<Object, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < pattern.length(); i++) {
+        for (int i = 0; i < words.length; i++) {
 
-            char ch = pattern.charAt(i);
-            String word = words[i];
-
-            if (map1.containsKey(ch)) {
-                if (!map1.get(ch).equals(word))
-                    return false;
-            } else {
-                map1.put(ch, word);
-            }
-
-            if (map2.containsKey(word)) {
-                if (map2.get(word) != ch)
-                    return false;
-            } else {
-                map2.put(word, ch);
-            }
+            if (!Objects.equals(map.put(pattern.charAt(i), i),
+                                map.put(words[i], i)))
+                return false;
         }
 
         return true;

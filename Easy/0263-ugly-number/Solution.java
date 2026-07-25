@@ -1,16 +1,13 @@
 class Solution {
     public boolean isUgly(int n) {
 
+        if (n == 1) return true;
         if (n <= 0) return false;
 
-        int[] factors = {2, 3, 5};
+        if (n % 2 == 0) return isUgly(n / 2);
+        if (n % 3 == 0) return isUgly(n / 3);
+        if (n % 5 == 0) return isUgly(n / 5);
 
-        for (int factor : factors) {
-            while (n % factor == 0) {
-                n /= factor;
-            }
-        }
-
-        return n == 1;
+        return false;
     }
 }

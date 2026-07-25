@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 1 ms  
-**Memory:** 42.8 MB  
+**Memory:** 42.6 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/ugly-number/)
 
 ## Problem Description

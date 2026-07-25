@@ -5,15 +5,17 @@ class Solution {
         HashMap<Integer, Integer> map = new HashMap<>();
         Stack<Integer> stack = new Stack<>();
 
-        for (int i = nums2.length - 1; i >= 0; i--) {
+        for (int num : nums2) {
 
-            while (!stack.isEmpty() && stack.peek() <= nums2[i]) {
-                stack.pop();
+            while (!stack.isEmpty() && num > stack.peek()) {
+                map.put(stack.pop(), num);
             }
 
-            map.put(nums2[i], stack.isEmpty() ? -1 : stack.peek());
+            stack.push(num);
+        }
 
-            stack.push(nums2[i]);
+        while (!stack.isEmpty()) {
+            map.put(stack.pop(), -1);
         }
 
         int[] ans = new int[nums1.length];

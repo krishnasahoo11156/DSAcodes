@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 4 ms  
-**Memory:** 45.2 MB  
+**Runtime:** 3 ms  
+**Memory:** 45.4 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/next-greater-element-i/)
 
 ## Problem Description

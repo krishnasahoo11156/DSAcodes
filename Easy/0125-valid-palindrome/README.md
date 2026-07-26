@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 3 ms  
-**Memory:** 43.6 MB  
+**Runtime:** 2 ms  
+**Memory:** 43.7 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/valid-palindrome/)
 
 ## Problem Description

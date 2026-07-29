@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 2 ms  
-**Memory:** 41.8 MB  
+**Runtime:** 0 ms  
+**Memory:** 41.9 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/integer-break/)
 
 ## Problem Description

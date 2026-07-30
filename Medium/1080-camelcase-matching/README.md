@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 43 MB  
+**Runtime:** 9 ms  
+**Memory:** 45.6 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/camelcase-matching/)
 
 ## Problem Description

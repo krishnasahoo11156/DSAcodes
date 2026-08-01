@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 55 ms  
-**Memory:** 42.4 MB  
+**Runtime:** 0 ms  
+**Memory:** 42.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/number-of-1-bits/)
 
 ## Problem Description

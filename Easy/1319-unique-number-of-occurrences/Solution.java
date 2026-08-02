@@ -7,12 +7,14 @@ class Solution {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-        HashSet<Integer> set = new HashSet<>();
+        ArrayList<Integer> list = new ArrayList<>();
 
         for (int freq : map.values()) {
-            if (!set.add(freq)) {
+
+            if (list.contains(freq))
                 return false;
-            }
+
+            list.add(freq);
         }
 
         return true;

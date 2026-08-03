@@ -4,12 +4,14 @@ class Solution {
         for (int len = 1; len <= n / 2; len++) {
             if (n % len != 0)
                 continue;
-            String sub = s.substring(0, len);
-            StringBuilder sb = new StringBuilder();
-            while (sb.length() < n) {
-                sb.append(sub);
+            boolean valid = true;
+            for (int i = len; i < n; i++) {
+                if (s.charAt(i) != s.charAt(i % len)) {
+                    valid = false;
+                    break;
+                }
             }
-            if (sb.toString().equals(s))
+            if (valid)
                 return true;
         }
         return false;

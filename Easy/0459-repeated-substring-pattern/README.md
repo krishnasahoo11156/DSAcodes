@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 33 ms  
-**Memory:** 47 MB  
+**Runtime:** 10 ms  
+**Memory:** 46.2 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/repeated-substring-pattern/)
 
 ## Problem Description

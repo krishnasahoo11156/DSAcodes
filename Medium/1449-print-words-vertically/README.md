@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Language:** Java  
 **Runtime:** 1 ms  
-**Memory:** 43 MB  
+**Memory:** 43.4 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/print-words-vertically/)
 
 ## Problem Description

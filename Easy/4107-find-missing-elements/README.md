@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 6 ms  
-**Memory:** 47.1 MB  
+**Memory:** 47.3 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/find-missing-elements/)
 
 ## Problem Description

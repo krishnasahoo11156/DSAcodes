@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 5 ms  
-**Memory:** 43.5 MB  
+**Runtime:** 6 ms  
+**Memory:** 43.6 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/unique-number-of-occurrences/)
 
 ## Problem Description

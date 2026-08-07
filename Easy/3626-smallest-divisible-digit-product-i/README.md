@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Language:** Java  
 **Runtime:** 1 ms  
-**Memory:** 43 MB  
+**Memory:** 42.7 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/smallest-divisible-digit-product-i/)
 
 ## Problem Description

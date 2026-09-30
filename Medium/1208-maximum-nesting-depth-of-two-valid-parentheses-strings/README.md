@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Language:** Java  
 **Runtime:** 2 ms  
-**Memory:** 45.4 MB  
+**Memory:** 45.8 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 ## Problem Description

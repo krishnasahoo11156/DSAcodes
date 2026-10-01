@@ -2,8 +2,8 @@
 
 **Difficulty:** Easy  
 **Language:** Java  
-**Runtime:** 2 ms  
-**Memory:** 43.2 MB  
+**Runtime:** 4 ms  
+**Memory:** 43.1 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/valid-parentheses/)
 
 ## Problem Description

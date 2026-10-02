@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Language:** Java  
 **Runtime:** 1 ms  
-**Memory:** 44.4 MB  
+**Memory:** 44.3 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/generate-parentheses/)
 
 ## Problem Description

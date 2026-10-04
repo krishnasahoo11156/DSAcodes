@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 42.8 MB  
+**Memory:** 42.7 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/valid-parenthesis-string/)
 
 ## Problem Description

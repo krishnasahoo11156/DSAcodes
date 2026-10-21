@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 38 ms  
-**Memory:** 135.1 MB  
+**Runtime:** 40 ms  
+**Memory:** 134.5 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)
 
 ## Problem Description

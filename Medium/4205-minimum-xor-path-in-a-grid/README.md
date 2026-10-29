@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 199 ms  
-**Memory:** 47.9 MB  
+**Runtime:** 202 ms  
+**Memory:** 47.3 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/minimum-xor-path-in-a-grid/)
 
 ## Problem Description

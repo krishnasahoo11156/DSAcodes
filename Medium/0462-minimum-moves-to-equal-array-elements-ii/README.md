@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 11 ms  
-**Memory:** 46.8 MB  
+**Runtime:** 108 ms  
+**Memory:** 46.7 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
 
 ## Problem Description

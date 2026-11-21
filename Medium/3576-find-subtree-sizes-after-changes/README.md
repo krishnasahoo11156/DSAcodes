@@ -2,8 +2,8 @@
 
 **Difficulty:** Medium  
 **Language:** Java  
-**Runtime:** 100 ms  
-**Memory:** 224.1 MB  
+**Runtime:** 101 ms  
+**Memory:** 224.3 MB  
 **Link:** [Problem Link](https://leetcode.com/problems/find-subtree-sizes-after-changes/)
 
 ## Problem Description
